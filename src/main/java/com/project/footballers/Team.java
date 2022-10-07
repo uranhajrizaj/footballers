@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
-
 @Entity
 @Table(name="Team")
 public class Team {
@@ -34,7 +32,6 @@ public class Team {
     public Team(){
     }
 }
-
 @RestController
 class TeacherController {
 
